@@ -7,4 +7,4 @@ RUN apt-get update && \
         libxi6
 
 # Install Gatsby CLI.
-RUN npm install --global gatsby-cli
+RUN npm install --global gatsby-cli@2.5.4
